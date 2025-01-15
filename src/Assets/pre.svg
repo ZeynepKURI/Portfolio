@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 150" width="100" height="150">
+    <!-- Kadın Silueti -->
+    <circle cx="50" cy="30" r="15" fill="#f1c6a7"> <!-- Yüz -->
+        <animate attributeName="cy" values="30;25;30" dur="2s" keyTimes="0;0.5;1" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Saç -->
+    <path d="M40 20 Q50 10, 60 20 Q50 25, 40 20" fill="#3e1f47"> <!-- Saç şekli -->
+        <animate attributeName="d" values="M40 20 Q50 10, 60 20 Q50 25, 40 20; M40 20 Q50 5, 60 20 Q50 30, 40 20" dur="2s" keyTimes="0;0.5;1" repeatCount="indefinite" />
+    </path>
+
+    <!-- Gövde -->
+    <path d="M50 45 C45 60, 45 90, 50 115 C55 90, 55 60, 50 45" fill="#fcb6b1"> <!-- Vücut -->
+        <animate attributeName="d" values="M50 45 C45 60, 45 90, 50 115 C55 90, 55 60, 50 45; M50 45 C45 65, 45 95, 50 125 C55 95, 55 65, 50 45" dur="2s" keyTimes="0;0.5;1" repeatCount="indefinite" />
+    </path>
+
+    <!-- Kollar -->
+    <circle cx="30" cy="55" r="4" fill="#fcb6b1"> <!-- Sol Kol -->
+        <animate attributeName="cy" values="55;50;55" dur="2s" keyTimes="0;0.5;1" repeatCount="indefinite" />
+    </circle>
+    <circle cx="70" cy="55" r="4" fill="#fcb6b1"> <!-- Sağ Kol -->
+        <animate attributeName="cy" values="55;50;55" dur="2s" keyTimes="0;0.5;1" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Kıyafet -->
+    <path d="M40 75 C45 85, 55 85, 60 75" fill="#e79acc"> <!-- Elbise -->
+        <animate attributeName="d" values="M40 75 C45 85, 55 85, 60 75; M40 75 C45 90, 55 90, 60 75" dur="2s" keyTimes="0;0.5;1" repeatCount="indefinite" />
+    </path>
+
+    <!-- Bacaklar -->
+    <circle cx="40" cy="110" r="5" fill="#fcb6b1"> <!-- Sol Bacak -->
+        <animate attributeName="cy" values="110;105;110" dur="2s" keyTimes="0;0.5;1" repeatCount="indefinite" />
+    </circle>
+    <circle cx="60" cy="110" r="5" fill="#fcb6b1"> <!-- Sağ Bacak -->
+        <animate attributeName="cy" values="110;105;110" dur="2s" keyTimes="0;0.5;1" repeatCount="indefinite" />
+    </circle>
+</svg>
